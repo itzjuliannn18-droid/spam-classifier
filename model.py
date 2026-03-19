@@ -29,8 +29,13 @@ model.fit(X_train, y_train)
 # Predictions
 y_pred = model.predict(X_test)
 
-# Accuracy
-print("Accuracy:", accuracy_score(y_test, y_pred))
+#Accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+
+with open("accuracy.txt", "w") as f:
+    f.write(str(accuracy))
 
 # Confusion Matrix
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
