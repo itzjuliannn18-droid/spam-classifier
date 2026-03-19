@@ -22,9 +22,16 @@ This project is a machine learning-based spam classifier that predicts whether a
 
 ---
 
-## 📷 Screenshots
-### App Interface
-![App](images/app.png)
+## Screenshots
+
+### Features
+![Features](images/Features.png)
+
+### Prediction - Not Spam
+![Not Spam](images/Predict%20not%20spam.png)
+
+### Prediction - Spam
+![Spam](images/Predict%20spam.png)
 
 ### Confusion Matrix
 ![Matrix](images/confusion_matrix.png)
